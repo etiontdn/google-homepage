@@ -10,10 +10,11 @@ body {
 
 .main-container {
   position: relative;
+  min-height: 106vh;
 }
 
 .content-container {
-  min-height: 100vh;
+  min-height: 94vh;
 }
 
 .header {
@@ -134,10 +135,10 @@ body {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  bottom: 6vh;
+  bottom: -6vh;
   width: 100%;
   background-color: #f2f2f2;
   color: #717171;
