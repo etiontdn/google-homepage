@@ -12,21 +12,27 @@
       <div class="content-container">
         <header class="header">
           <div class="header-left">
-            <div class="header-item">
-              <svg class="header-symbol" width="24px" height="24px">
+            <div class="header-item hidden-desktop">
+              <svg class="header-symbol hidden-desktop" width="24px" height="24px">
                 <path stroke="black" d="M3 7 L21 7 M3 12 L21 12 M3 17 L21 17">
               </svg>
             </div>
-            <div class="header-item active">
-              <a class="header-link active-link" href="#">ALL</a>
+            <div class="header-item active hidden-desktop">
+              <a class="header-link active-link hidden-desktop" href="#">ALL</a>
             </div>
-            <div class="header-item">
-              <a class="header-link" href="#">IMAGES</a>
+            <div class="header-item hidden-desktop">
+              <a class="header-link hidden-desktop" href="#">IMAGES</a>
             </div>
           </div>
           <div class="header-right">
-            <div class="header-item">
-              <svg height="24px" viewBox="0 0 192 192" width="24px">
+            <div class="header-item hidden-mobile">
+              <a class="header-link" href="#">Gmail</a>
+            </div>
+            <div class="header-item hidden-mobile">
+              <a class="header-link" href="#">Images</a>
+            </div>
+            <div class="header-item hidden-desktop">
+              <svg class="hidden-desktop" height="24px" viewBox="0 0 192 192" width="24px">
                 <g>
                   <circle fill="#34a853" cx="172" cy="60" r="12"></circle>
                   <circle fill="#ea4335" cx="136" cy="88" r="24"></circle>
@@ -48,8 +54,8 @@
                 <rect x="19px" y="19px" width="4px" height="4px"/>
               </svg>
             </div>
-            <div class="header-item">
-              <a href="#">
+            <div class="header-item hidden-desktop">
+              <a href="#" class="hidden-desktop">
                 <img src="images/basic-user-icon.png" class="user-icon" alt=""
                  width="32px" height="32px">
               </a>
@@ -66,7 +72,10 @@
               &#128269;</button>
           </form>
         </section>
-
+        <div class="hidden-mobile desktop-buttons">
+          <button type="button" name="button">Google Search</button>
+          <button type="button" name="button">I'm Feeling Lucky</button>
+        </div>
         <div class="other-langs">
           <p>Google offered in: <a href="#">Português (Brasil)</a></p>
         </div>
@@ -75,7 +84,7 @@
 
       <footer class="footer">
         <div class="location">Brazil</div>
-        <div class="other-options">
+        <div class="other-options hidden-desktop">
           <div class="option-row">
             <div class="option">Settings</div>
             <div class="option">Privacy</div>
@@ -85,6 +94,21 @@
             <div class="option">Advertising</div>
             <div class="option">Business</div>
             <div class="option">About</div>
+          </div>
+        </div>
+        <div class="other-options hidden-mobile">
+          <div class="option-row">
+            <div class="options-left">
+              <div class="option">Advertising</div>
+              <div class="option">Business</div>
+              <div class="option">About</div>
+              <div class="option">How Search works</div>
+            </div>
+            <div class="options-right">
+              <div class="option">Privacy</div>
+              <div class="option">Terms</div>
+              <div class="option">Settings</div>
+            </div>
           </div>
         </div>
       </footer>
