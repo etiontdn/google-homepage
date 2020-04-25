@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.main-container {
+  position: relative;
+}
+
+.content-container {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-item {
+  height: 100%;
+  align-items: center;
+}
+
+
+.header-left .header-item {
+  padding: 0px 12px;
+  display: flex;
+}
+.header-right .header-item {
+  padding: 0px 9.5px;
+  display: flex;
+}
+
+.header-symbol {
+  margin-left: 4px;
+}
+
+.header-symbol-square rect {
+  fill: #727272;
+}
+
+.header-link {
+  color: #757575;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  color: #5385f4;
+}
+
+.active {
+  border-bottom: 2px solid #5385f4;
+}
+
+.user-icon {
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  max-width: 100%;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.search-bar{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+}
+
+.search-bar input {
+  border-radius: 20px;
+  border: 1px solid #dfe1e5;
+  padding: 10px 20px;
+  margin: 0px 5px;
+}
+
+
+.search-button {
+  position:relative;
+  right: 20px;
+  width: 42px;
+  border-width: 1px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #3b78e7;
+  border-color: #3367d6;
+}
+
+.other-langs {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 30px;
+
+  font-size: 12px;
+}
+
+.other-langs a {
+  text-decoration: none;
+  color: #1967d3;
+}
+
+.other-langs a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: 6vh;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #717171;
+}
+
+.location {
+  border-bottom: 1px solid #e4e4e4;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.other-options {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 50px;
+  padding-bottom: 25px;
+}
+
+.option-row {
+  display: flex;
+  padding-top: 15px;
+  justify-content: center;
+  flex-direction: row;
+}
+.option {
+  color: #5f6368;
+  font-size: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
